@@ -1,0 +1,33 @@
+@charset " UTF-8 ";
+body{
+    background-color: #E0E0CE;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+color: rgb(0, 0, 0);
+}
+h2{
+color: rgb(0, 0, 0)
+;
+}
+#principal {
+    text-align: center;
+    background-color: rgb(58, 58, 78);
+    color: whitesmoke;
+}
+p{
+    font-size: 22px;
+}
+.basico {
+color: rgb(66, 66, 54);
+}
+.intermediario {
+color: #2e3b7d;
+font-weight: bolder;
+}
+.avançado {
+    color: brown;
+}
+.destaque {
+    background-color: #99936E;
+}
