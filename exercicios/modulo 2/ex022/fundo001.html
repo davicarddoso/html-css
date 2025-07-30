@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de imagem</title>
+    <style>
+        body {
+            background-image: url(imagens/wallpaper001.jpg);
+        }
+        div.quadrado {
+           display: inline-block;
+           border: 1px solid black;
+            width: 200px;
+            height: 200px;
+            background-color: lightgrey;
+            border-radius: 10px;
+            transition: 0.5 ease-in-out;
+        }
+        div#q1 {
+            background-color: skyblue;
+            transition: 0.5 ease-in-out;
+        }
+        div#q2 {
+            background-image: linear-gradient(to bottom, rgb(111, 111, 255), rgb(1, 1, 70));
+            transition: 0.5 ease-in-out;
+        } 
+        div#q3{
+            background-image: url(imagens/pattern003.png);
+            transition: 0.5s ease-in-out;
+        }
+        div#q3:hover {
+            width: 250px;
+            height: 250px;
+        }
+        div#q1:hover {
+            width: 250px;
+            height: 250px;
+            
+        }
+        div#q2:hover {
+            width: 250px;
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+
+    </div>
+    <div class="quadrado" id="q2">
+
+    </div>
+    <div class="quadrado" id="q3">
+
+    </div>
+</body>
+</html>
