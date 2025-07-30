@@ -57,11 +57,23 @@ body {
     background-color: rgb(0, 90, 0);
     
 }
+#video {
+    background-color: rgb(0, 82, 0);
+    min-width: 400px;
+    min-height: 200px;
+    margin: auto;
+    
+}
+iframe {
+    margin: auto;
+    border: 100px;
+    background-color: rgb(1, 91, 1);
+}
 
 article {
-     min-width: 400px;
+     min-width: 300px;
     max-width: 650px;
-    margin: 20px;
+    margin: auto;
     margin-bottom: 30px;
     padding: 20px;
     background-color: white;

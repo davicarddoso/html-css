@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>borda dinamica</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav {
+            text-align: center;
+            margin-top: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            padding: 0px 59px 10px 0px;
+            font-size: medium;
+            position: relative;
+        }
+         nav a::before{
+            content: " ";
+            width: 0%;
+            height: 4px;
+            background-color: black;
+            position: absolute;
+            bottom: 4px;
+            left: -59px;
+            transition: 0.5s ease-in-out;
+        }
+
+        nav a:hover::before{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">home</a>
+        <a href="#">sobre</a>
+        <a href="#">blog</a>
+        <a href="#">contato</a>
+    </nav>
+</body>
+</html>
