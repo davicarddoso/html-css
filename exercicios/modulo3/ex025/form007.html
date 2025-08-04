@@ -7,5 +7,28 @@
 </head>
 <body>
     <h1>MEU formulario</h1>
+    
+    <form action="cadastro.php" method="get" autocomplete="on">
+            <p>
+                <label for="iest">Estado</label>
+                <select name="Estado" id="iest">
+               
+                <optgroup label="Regiao sudeste">
+                        <option value="sp">São Paulo</option>
+                        <option value="MG">minas gerais</option>
+                        <option value="Rj">Rio de janeiro</option>
+                        <option value="ES">Espirito santo</option>
+                    </select>
+                </optgroup>
+            </p>
+            <p>
+                <label for="iava">Avaliação</label><br>
+                <textarea name="avaliacao" id="iava" rows="5" cols="20" placeholder="Sua mensagem"></textarea>
+            </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>
